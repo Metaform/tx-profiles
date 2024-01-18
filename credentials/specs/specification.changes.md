@@ -1,0 +1,10 @@
+
+
+
+# Spec Changes
+
+1. Remove `startTime`, `memberOf`, and `status` from `Membership` credential 
+2. Remove `credentialSubject` `type` attribute from all credentials
+3. Create separate credential context using the URI: https://w3id.org/catenax/credentials/v1.0.0 
+4. Create separate policy context using the URI: https://w3id.org/catenax/ns/v1.0.0
+5. Adopt JWT-based VCs using JWS algorithm `ES256K` and JWK curve `secp256k1`
