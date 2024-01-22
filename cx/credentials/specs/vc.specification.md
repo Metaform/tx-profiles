@@ -18,23 +18,38 @@ The following credential types MUST be supported by participants.
 
 ### 2.1. The `BpnCredential` Type
 
+Specified in [BPN Credential Schema](../schema/credentials/bpn.credential.schema.json).
+
 ### 2.2. The `DismantlerCredential` Type
+
+Specified in [Dismantler Credential Schema](../schema/credentials/dismantler.credential.schema.json).
 
 ### 2.3. The `MembershipCredential` Type
 
+Specified in [Membership Credential Schema](../schema/credentials/membership.credential.schema.json).
+
 ### 2.4. Framework Credential Types
 
-#### 2.4.1. The `BehaviorTwinCredential` Type
+#### 2.4.1. The `BehavioralTwinCredential` Type
+
+Specified in [Behavioral Twin Credential Schema](../schema/credentials/behavioral.twin.credential.schema.json).
 
 #### 2.4.2. The `PcfCredential` Type
 
+Specified in [PCF Credential Schema](../schema/credentials/pcf.credential.schema.json).
+
 #### 2.4.3. The `QualityCredential` Type
+
+Specified in [Quality Credential Schema](../schema/credentials/quality.credential.schema.json).
 
 #### 2.4.4. The `ResiliencyCredential` Type
 
-#### 2.4.5. The `Credential` Type
+Specified in [Resiliency Credential Schema](../schema/credentials/resiliency.credential.schema.json).
 
-#### 2.4.6. The `SustainabilityCredential` Type
+#### 2.4.5. The `SustainabilityCredential` Type
 
-#### 2.4.7. The `TraceabilityCredential` Type
+Specified in [Sustainability Credential Schema](../schema/credentials/sustainability.credential.schema.json).
 
+#### 2.4.6. The `TraceabilityCredential` Type
+
+Specified in [Traceability Credential Schema](../schema/credentials/traceability.credential.schema.json).
