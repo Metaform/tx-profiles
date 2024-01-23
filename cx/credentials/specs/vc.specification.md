@@ -6,8 +6,8 @@ with [The Identity and Trust Protocol (IATP)](https://github.com/eclipse-tractus
 ## 1. Interoperable Credential Data Model and Encodings
 
 Verifiable Credentials (VC) are based on the [W3C VC Data Model](https://www.w3.org/TR/vc-data-model/#dfn-holders).
-The interoperable encoding format for VCs and Verifiable Presentations (VP) is JWT as detailed in the previous
-specification.
+The interoperable encoding format for VCs and Verifiable Presentations (VP) is JWT `ES256K/secp256k1` as defined in
+[CBOR Object Signing and Encryption (COSE) and JSON Object Signing and Encryption (JOSE) Registrations for Web Authentication (WebAuthn) Algorithms](https://datatracker.ietf.org/doc/html/rfc8812#section-3.1).
 
 VCs MUST contain an `issuanceDate` and MAY `expirationDate`. JWTs MUST contain an `iat` claim equal to
 the `issuanceDate` and an `exp` equal to the `expirationDate`, if present.
